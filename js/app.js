@@ -126,7 +126,7 @@ const boatApp = {
         if (this.frames % 70 === 0) {
             this.fishes.push(new Fish(this.ctx, Math.floor(Math.random() * ((this.canvasSize.w - 100) - 0)) + 0, Math.floor(Math.random() * ((this.canvasSize.h - 300) - 150)) + 150, 75, 75, this.canvasSize, 'pez1.png'))
             console.log(this.fishes) //el array se limpia ok
-            this.coin.push(new Coins(this.ctx, Math.floor(Math.random() * ((this.canvasSize.w - 100) - 0)) + 0, Math.floor(Math.random() * ((this.canvasSize.h - 400) - 150)) + 150, 90, 90, this.canvasSize, 'image.png'))
+            this.coin.push(new Coins(this.ctx, Math.floor(Math.random() * ((this.canvasSize.w - 100) - 0)) + 0, Math.floor(Math.random() * ((this.canvasSize.h - 400) - 150)) + 150, 70, 95, this.canvasSize, 'image.png'))
         }
    }, 
     
